@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,700;1,800&display=swap");
+html {
+  background-color: rgb(230, 68, 72);
+  font-family: Merriweather Sans;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.local p {
+  color: white;
+  font-size: 25px;
+  padding: 5vw;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+form {
+  background-color: orange;
+  padding: 3vw;
+  border-radius: 100px;
+  margin-left: 28vw;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+form label {
+  font-size: 25px;
+}
+
+.bikes {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+}
+.bikes img {
+  background-color: orange;
+  padding: 1vh;
+  border-radius: 100px;
+  height: 30vh;
+  margin-right: 5vw;
+}
+
+.about p {
+  color: white;
+  font-size: 25px;
+  padding: 5vw;
+}/*# sourceMappingURL=main.css.map */
