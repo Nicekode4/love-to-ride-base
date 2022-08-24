@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,700;1,800&display=swap');
+
+$orange: orange;
+$white: white;
 html{
     background-color: rgb(230, 68, 72);
     font-family: Merriweather Sans;
@@ -9,18 +12,18 @@ header{
 }
 .local{
 p{
-    color: white;
+    color: $white;
     font-size: 25px;
     padding: 5vw;
 }
 }
 h1{
     font-size: 40px;
-    color: white;
+    color: $white;
     text-align: center;
 }
 form{
-    background-color: orange;
+    background-color: $orange;
     padding: 3vw;
     border-radius: 100px;
     margin-left: 28vw;
@@ -34,7 +37,7 @@ form{
     justify-content: right;
     width: 100%;
     img{
-        background-color: orange;
+        background-color: $orange;
         padding: 1vh;
         border-radius: 100px;
         height: 30vh;
@@ -43,7 +46,7 @@ form{
 }
 .about{
     p{
-        color: white;
+        color: $white;
         font-size: 25px;
         padding: 5vw;
     }
